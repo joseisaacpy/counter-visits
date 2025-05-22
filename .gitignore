@@ -1,0 +1,5 @@
+# ignora a pasta node_modules
+node_modules
+.env
+npm-debug.log
+.DS_Store
