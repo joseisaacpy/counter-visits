@@ -16,6 +16,15 @@ app.use((req, res, next) => {
   next();
 });
 
+// rota padrão
+app.get("/", (req, res) => {
+  res
+    .status(200)
+    .send(
+      `Acesse <a href="http://localhost:3000/visits">http://localhost:3000/visits</a>.`
+    );
+});
+
 // rota de visitas
 app.get("/visits", (req, res) => {
   visitCount++; // incrementa o contador a cada visita
