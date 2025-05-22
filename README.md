@@ -17,33 +17,34 @@ Este é um projeto simples feito com Node.js e Express que conta quantas vezes a
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/seu-usuario/counter-visits.git
    ```
 2. Instale as dependências:
-    ``` bash
-     npm install
-    ```
-2. Instale as dependências:
-    ``` bash
-     npm install
-    ```
-2. Inicie o servidor:
-    ``` bash
-     node app.js
-     OU
-     nodemon app.js
-    ```
-3. Acesse o navegaodor
-    ```bash
-    http://localhost:3000/visits
-    ```
+   ```bash
+    npm install
+   ```
+3. Instale as dependências:
+   ```bash
+    npm install
+   ```
+4. Inicie o servidor:
+   ```bash
+    node app.js
+    OU
+    nodemon app.js
+   ```
+5. Acesse o navegaodor
+   ```bash
+   http://localhost:3000/visits
+   ```
+
 ## Estrutura do Projeto
 
-````
-contador-visitas/
+```
+counter-visits/
 ├── index.js
 ├── package.json
 ├── .gitignore
 ├── README.md
 └── node_modules/
-````
+```
